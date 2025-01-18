@@ -9,7 +9,7 @@ export default function AdminLogin() {
     e.preventDefault();
     // In a real application, implement proper authentication
     if (credentials.username === 'admin' && credentials.password === 'admin123') {
-      window.location.href = '/admin/dashboard';
+      window.location.href = '/studio1/admin/dashboard';
     } else {
       alert('Invalid credentials');
     }
