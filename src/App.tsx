@@ -26,7 +26,7 @@ function Home() {
 
 function App() {
   return (
-    <Router basename="/your-repo-name"> {/* Add basename prop */}
+    <Router basename="/studio1"> {/* Add basename prop */}
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<Home />} />
